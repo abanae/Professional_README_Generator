@@ -26,10 +26,30 @@ function renderLicenseBadge(license) {
 
 // // TODO: Create a function that returns the license link
 // // If there is no license, return an empty string
-// function renderLicenseLink(license) {
+function renderLicenseLink(license) {
+  let link = "";
+  switch (license) {
+    case 'Apache 2.0':
+      link = "https://opensource.org/licenses/Apache-2.0)";
+      break;
+    case 'MIT':
+      badgeLic = "https://opensource.org/licenses/MIT)";
+      break;
+    case 'Mozilla-Public 2.0':
+      badgeLic = "https://opensource.org/licenses/MPL-2.0)";
+      break;
+    case 'GNU-General-Public GPL v3':
+      badgeLic = "https://www.gnu.org/licenses/gpl-3.0)";
+      break;
+    case 'Boost Software License 1.0':
+      badgeLic = "://www.boost.org/LICENSE_1_0.txt)";
+      break;
+      case 'None':
+      break;
+  }
+  return link;
 
-
-// }
+}
 
 // // TODO: Create a function that returns the license section of README
 // // If there is no license, return an empty string
