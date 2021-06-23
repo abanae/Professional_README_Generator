@@ -59,12 +59,12 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  let badgeLic = renderLicenseBadge(data.licensing);
-  let link = renderLicenseLink(data.licensing);
+  let badgeLic = renderLicenseBadge(data.license);
+  let link = renderLicenseLink(data.license);
   return `# ${data.title}
 
   ## Licensing:
-  [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
+  [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
  
 
 
@@ -82,7 +82,7 @@ function generateMarkdown(data) {
   
   # License:
   
-  ${data.licensing}
+  ${data.license}
   
   # Contribution:
   
