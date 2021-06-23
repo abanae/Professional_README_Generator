@@ -96,7 +96,7 @@ function generateMarkdown(data) {
   ${data.testing}
   
   # Additional Info:
-  
+  Contact Me:
   - Github: [${data.github}](https://github.com/${data.github})
   - Email: ${data.email} 
   
