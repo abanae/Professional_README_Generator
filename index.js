@@ -96,7 +96,7 @@ const questions = [
         type: 'checkbox',
         name: 'licensing',
         message: 'Choose a license for your project (Required)',
-        choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
+        choices: ['Apache 2.0', 'MIT', 'Mozilla-Public 2.0', 'GNU-General-Public GPL v3', 'Boost Software License 1.0', 'None'],
         validate: licensingInput => {
             if (licensingInput) {
                 return true;
@@ -132,8 +132,9 @@ const questions = [
 
 // // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-return fs.writeFileSync(fileName, data)
-
+ fs.writeFileSync(fileName, data, (err,) =>
+ err ? console.error(err) : console.log("Successfully generated!")
+ );
 }
 
 // // TODO: Create a function to initialize app
