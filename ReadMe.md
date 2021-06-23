@@ -7,15 +7,18 @@
 
   # Description:
 
-  A Node.js application that creates a ReadMe file by answering a few questions. The app creates a ReadMe file on your local directory.
+  A Node.js application that creates a ReadMe file for users by answering a few prompts on terminal. The app creates a high-quality, professional ReadMe file on your local directory.
   
   # Installation:
-  
-  node.js. npm install inquirer
+  - Download Node.js
+  - Open node.js in terminal
+  - npm install inquirer
   
   # Usage:
   
-  Follow prompts in terminal. open ReadMe file. Push to Github.
+  - Follow prompts in terminal
+  - Once it's succesfully generated, open ReadMe file & review it
+  - Push to Github.
   
   # License:
   
@@ -23,14 +26,16 @@
   
   # Contribution:
   
-  follow me on Github https://github.com/abanae
+  :octocat: [Ana Abad](https://github.com/abanae)
   
   # Testing:
   
-  Follow prompts in terminal. open ReadMe file. Push to Github.
+  Follow prompts in terminal
+  Open ReadMe file
+  Push to Github
   
   # Additional Info:
-  
+    Contact Me:
   - Github: [https://github.com/abanae](https://github.com/https://github.com/abanae)
   - Email: https://github.com/abanae 
   
