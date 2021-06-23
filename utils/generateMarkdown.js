@@ -59,44 +59,44 @@ function generateMarkdown(data) {
   let link = renderLicenseLink(data.license);
   return `# ${data.title}
 
-  ## Licensing:
+  ### Licensing:
   [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
  
 
 
-  # Description:
+  ## Description:
 
 ${data.description}
 
-  ## Table of Contents:
+  ### Table of Contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contribution)
 - [Tests](#testing)
-- [Questions](#additional-info))
+- [Questions](#additional-info)
   
-  # Installation:
+  ## Installation:
   
   ${data.installation}
   
-  # Usage:
+  ## Usage:
   
   ${data.usage}
   
-  # License:
+  ## License:
   
   ${data.license}
   
-  # Contribution:
+  ## Contribution:
   
   ${data.contribution}
   
-  # Testing:
+  ## Testing:
   
   ${data.testing}
   
-  # Additional Info:
+  ## Additional Info:
   Contact Me:
   - Github: [${data.github}](https://github.com/${data.github})
   - Email: ${data.email} 
