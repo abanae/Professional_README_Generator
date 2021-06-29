@@ -1,14 +1,14 @@
 # Professional ReadMe Generator
 
   ### Licensing:
-  [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
+  [![license](https://img.shields.io/badge/license--blue)](https://shields.io)
  
 
 
   ## Description:
 
-  A Node.js application that creates a ReadMe file for users by answering a few prompts on terminal. The app creates a high-quality, professional ReadMe file on your local directory.
-  
+A Node.js application that creates a ReadMe file for users by answering a few prompts on terminal. The app creates a high-quality, professional ReadMe file on your local directory.
+
   ### Table of Contents:
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,35 +16,29 @@
 - [Contributing](#contribution)
 - [Tests](#testing)
 - [Questions](#additional-info)
-
+  
   ## Installation:
-  - Download Node.js
-  - Open node.js in terminal
-  - npm install inquirer
+  
+  Node js. 
   
   ## Usage:
   
-  - Follow prompts in terminal
-  - Once it's succesfully generated, open ReadMe file & review it
-  - Push to Github.
+  -Open Terminal -Run Node
   
   ## License:
   
-  MIT
+  
   
   ## Contribution:
   
-  :octocat: [Ana Abad](https://github.com/abanae)
+  N/A
   
   ## Testing:
   
-  - Follow prompts in terminal
-  - Open ReadMe file
-  - Push to Github
-
-  ![Demo](https://media3.giphy.com/media/tmAGBtO1KBHKqcgcCU/giphy.gif?cid=790b761120258040eceb6a954636959d4a8ce99a1ef163a3&rid=giphy.gif&ct=g)
+  Running the terminal & following prompts
   
-  ## Additional Info(Contact Me):
-  - Github: [https://github.com/abanae](https://github.com/https://github.com/abanae)
-  - Email: https://github.com/abanae 
+  ## Additional Info:
+  Contact Me:
+  - Github: [github.com/abanae](https://github.com/github.com/abanae)
+  - Email: aabad0464@gmail.com 
   
